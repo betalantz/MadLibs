@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BF89B86E1F69E45300DCFFC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B86D1F69E45300DCFFC5 /* AppDelegate.swift */; };
-		BF89B8701F69E45300DCFFC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B86F1F69E45300DCFFC5 /* ViewController.swift */; };
+		BF89B8701F69E45300DCFFC5 /* MadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B86F1F69E45300DCFFC5 /* MadViewController.swift */; };
 		BF89B8731F69E45300DCFFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89B8711F69E45300DCFFC5 /* Main.storyboard */; };
 		BF89B8751F69E45300DCFFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF89B8741F69E45300DCFFC5 /* Assets.xcassets */; };
 		BF89B8781F69E45300DCFFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89B8761F69E45300DCFFC5 /* LaunchScreen.storyboard */; };
 		BF89B8831F69E45300DCFFC5 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B8821F69E45300DCFFC5 /* MadLibsTests.swift */; };
 		BF89B88E1F69E45300DCFFC5 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B88D1F69E45300DCFFC5 /* MadLibsUITests.swift */; };
+		BF89B89C1F69E99E00DCFFC5 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B89B1F69E99E00DCFFC5 /* SubmitViewController.swift */; };
+		BF89B89E1F69EDED00DCFFC5 /* SubmitViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89B89D1F69EDED00DCFFC5 /* SubmitViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		BF89B86A1F69E45300DCFFC5 /* MadLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89B86D1F69E45300DCFFC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF89B86F1F69E45300DCFFC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF89B86F1F69E45300DCFFC5 /* MadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadViewController.swift; sourceTree = "<group>"; };
 		BF89B8721F69E45300DCFFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF89B8741F69E45300DCFFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF89B8771F69E45300DCFFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		BF89B8891F69E45300DCFFC5 /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89B88D1F69E45300DCFFC5 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		BF89B88F1F69E45300DCFFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF89B89B1F69E99E00DCFFC5 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		BF89B89D1F69EDED00DCFFC5 /* SubmitViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				BF89B86D1F69E45300DCFFC5 /* AppDelegate.swift */,
-				BF89B86F1F69E45300DCFFC5 /* ViewController.swift */,
+				BF89B86F1F69E45300DCFFC5 /* MadViewController.swift */,
 				BF89B8711F69E45300DCFFC5 /* Main.storyboard */,
+				BF89B89B1F69E99E00DCFFC5 /* SubmitViewController.swift */,
+				BF89B89D1F69EDED00DCFFC5 /* SubmitViewControllerDelegate.swift */,
 				BF89B8741F69E45300DCFFC5 /* Assets.xcassets */,
 				BF89B8761F69E45300DCFFC5 /* LaunchScreen.storyboard */,
 				BF89B8791F69E45300DCFFC5 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF89B8701F69E45300DCFFC5 /* ViewController.swift in Sources */,
+				BF89B8701F69E45300DCFFC5 /* MadViewController.swift in Sources */,
+				BF89B89C1F69E99E00DCFFC5 /* SubmitViewController.swift in Sources */,
 				BF89B86E1F69E45300DCFFC5 /* AppDelegate.swift in Sources */,
+				BF89B89E1F69EDED00DCFFC5 /* SubmitViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5995Q48X5V;
 				INFOPLIST_FILE = MadLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betalantz.MadLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5995Q48X5V;
 				INFOPLIST_FILE = MadLibs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betalantz.MadLibs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
